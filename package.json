@@ -1,0 +1,27 @@
+{
+  "name": "riot-api-typedef",
+  "version": "1.0.0",
+  "description": "TypeScript interfaces to house for Riot API responses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goyatuzo/riot-api-typedef.git"
+  },
+  "keywords": [
+    "League",
+    "of",
+    "Legends",
+    "Riot",
+    "API",
+    "TypeScript"
+  ],
+  "author": "Yuto Otaguro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goyatuzo/riot-api-typedef/issues"
+  },
+  "homepage": "https://github.com/Goyatuzo/riot-api-typedef#readme"
+}
