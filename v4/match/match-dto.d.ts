@@ -43,7 +43,7 @@ export interface MatchDTO {
     /**
      * Participant information.
      */
-    participants: ParticipantDto[];
+    participants: ParticipantDTO[];
     /**
      * Match duration in seconds.
      */
