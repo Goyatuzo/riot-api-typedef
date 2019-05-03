@@ -1,6 +1,6 @@
 {
   "name": "riot-api-typedef",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "TypeScript interfaces to house for Riot API responses.",
   "typings": "index.d.ts",
   "scripts": {
@@ -23,7 +23,7 @@
     "typedef"
   ],
   "author": "Yuto Otaguro",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Goyatuzo/riot-api-typedef/issues"
   },
