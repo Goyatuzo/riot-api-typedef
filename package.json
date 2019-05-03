@@ -16,7 +16,11 @@
     "Legends",
     "Riot",
     "API",
-    "TypeScript"
+    "TypeScript",
+    "typings",
+    "type",
+    "definitions",
+    "typedef"
   ],
   "author": "Yuto Otaguro",
   "license": "ISC",
