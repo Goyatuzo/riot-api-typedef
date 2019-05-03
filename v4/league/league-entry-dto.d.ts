@@ -1,22 +1,22 @@
-declare module RiotApi {
-    export interface LeagueEntryDTO {
-        queueType: string;
-        summonerName: string;
-        hotStreak: boolean;
-        miniSeries: MiniSeriesDTO;
-        wins: number;
-        veteran: boolean;
-        losses: number;
-        rank: string;
-        leagueId: string;
-        inactive: boolean;
-        freshBlood: boolean;
-        tier: string;
+import { MiniSeriesDTO } from './mini-series-dto';
 
-        /**
-         * Player's summonerId (Encrypted) 
-         */
-        summonerId: string;
-        leaguePoints: number;
-    }
+export interface LeagueEntryDTO {
+    queueType: string;
+    summonerName: string;
+    hotStreak: boolean;
+    miniSeries: MiniSeriesDTO;
+    wins: number;
+    veteran: boolean;
+    losses: number;
+    rank: string;
+    leagueId: string;
+    inactive: boolean;
+    freshBlood: boolean;
+    tier: string;
+
+    /**
+     * Player's summonerId (Encrypted) 
+     */
+    summonerId: string;
+    leaguePoints: number;
 }
