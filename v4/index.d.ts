@@ -1,14 +1,11 @@
 // Champion
-export * from './champion/champion-info';
+export * from './champion-info';
 
 // Champion mastery
-export * from './champion-mastery/champion-mastery-dto'
+export * from './champion-mastery'
 
 // League
-export * from './league/league-entry-dto';
-export * from './league/league-item-dto';
-export * from './league/league-list-dto'
-export * from './league/mini-series-dto'
+export * from './league';
 
 // lol-status
 export * from './lol-status/incident';
