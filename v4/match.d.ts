@@ -1,3 +1,5 @@
+import { Seasons } from "../data-dragon/enums/seasons";
+
 export namespace MatchV4 {
     export interface MasteryDTO {
         masteryId: number;
@@ -8,7 +10,7 @@ export namespace MatchV4 {
         /**
          * Please refer to the Game Constants documentation.
          */
-        seasonId: number;
+        seasonId: Seasons;
         /**
          * Please refer to the Game Constants documentation.
          */
