@@ -3,3 +3,6 @@ export * from './champion-mastery'
 
 // League
 export * from './league';
+
+// Matches
+export * from './match';
