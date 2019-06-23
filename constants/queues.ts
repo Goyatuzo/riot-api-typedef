@@ -166,3 +166,5 @@ export enum CrashSite {
 export enum OtherQueues {
     CUSTOM_GAMES = 0
 }
+
+export type AllQueues = ButchersBridge | CosmicRuins | CrashSite | CrystalScar | HowlingAbyssQueues | OtherQueues | Overcharge | SummonersRiftQueues | TwistedTreelineQueues | ValoranCityPark;
