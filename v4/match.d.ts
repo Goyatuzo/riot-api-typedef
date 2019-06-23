@@ -1,4 +1,5 @@
 import { Seasons } from "../constants/seasons";
+import { AllQueues } from '../constants/queues';
 
 export namespace MatchV4 {
     export interface MasteryDTO {
@@ -14,7 +15,8 @@ export namespace MatchV4 {
         /**
          * Please refer to the Game Constants documentation.
          */
-        queueId: number;
+        queueId: AllQueues;
+
         gameId: number;
         /**
          * Participant identity information.
@@ -71,7 +73,7 @@ export namespace MatchV4 {
         champion: number;
         platformId: string;
         season: number;
-        queue: number;
+        queue: AllQueues;
         role: string;
         timestamp: number;
     }

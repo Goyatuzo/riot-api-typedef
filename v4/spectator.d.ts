@@ -1,3 +1,5 @@
+import { AllQueues } from "../constants/queues";
+
 export namespace SpectatorV4 {
     export interface BannedChampion {
         /**
@@ -58,7 +60,7 @@ export namespace SpectatorV4 {
         /**
          * The queue type (queue types are documented on the Game Constants page) 
          */
-        gameQueueConfigId: number;
+        gameQueueConfigId: AllQueues;
     }
 
     export interface FeaturedGames {
