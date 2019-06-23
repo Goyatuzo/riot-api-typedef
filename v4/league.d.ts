@@ -1,4 +1,4 @@
-export namespace LeagueV3 {
+export namespace LeagueV4 {
     export interface LeagueEntryDTO {
         queueType: string;
         summonerName: string;
