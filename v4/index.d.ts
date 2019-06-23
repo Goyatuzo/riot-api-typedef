@@ -6,3 +6,6 @@ export * from './league';
 
 // Matches
 export * from './match';
+
+// Spetator
+export * from './spectator';
