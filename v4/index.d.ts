@@ -1,5 +1,5 @@
 // Champion
-export * from './champion-info';
+export * from './champion';
 
 // Champion mastery
 export * from './champion-mastery'
