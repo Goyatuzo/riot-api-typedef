@@ -1,4 +1,4 @@
-import { Seasons } from "../data-dragon/enums/seasons";
+import { Seasons } from "../constants/seasons";
 
 export namespace MatchV4 {
     export interface MasteryDTO {
