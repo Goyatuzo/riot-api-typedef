@@ -1,4 +1,5 @@
 import { AllQueues } from "../constants/queues";
+import { Maps } from "../constants/maps";
 
 export namespace SpectatorV4 {
     export interface BannedChampion {
@@ -36,7 +37,7 @@ export namespace SpectatorV4 {
         /**
          * The ID of the map
          */
-        mapId: number;
+        mapId: Maps;
         /**
          * The game type (Legal values: CUSTOM_GAME, MATCHED_GAME, TUTORIAL_GAME)
          */

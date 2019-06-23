@@ -1,5 +1,6 @@
 import { Seasons } from "../constants/seasons";
 import { AllQueues } from '../constants/queues';
+import { Maps } from "../constants/maps";
 
 export namespace MatchV4 {
     export interface MasteryDTO {
@@ -37,7 +38,7 @@ export namespace MatchV4 {
         /**
          * Please refer to the Game Constants documentation.
          */
-        mapId: number;
+        mapId: Maps;
         /**
          * Please refer to the Game Constants documentation.
          */
