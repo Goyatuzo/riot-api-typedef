@@ -1,3 +1,5 @@
+import { AllQueues } from "../constants/queues";
+
 export namespace LeagueV4 {
     export interface LeagueEntryDTO {
         queueType: string;
@@ -41,7 +43,7 @@ export namespace LeagueV4 {
         leagueId: string;
         tier: string;
         entries: LeagueItemDTO[];
-        queue: string;
+        queue: AllQueues;
         name: string;
     }
 
