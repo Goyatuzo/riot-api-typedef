@@ -9,3 +9,6 @@ export * from './match';
 
 // Spetator
 export * from './spectator';
+
+// Tournament
+export * from './tournament';
