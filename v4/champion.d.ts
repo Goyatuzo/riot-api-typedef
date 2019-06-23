@@ -1,4 +1,4 @@
-export namespace ChampionInfoV3 {
+export namespace ChampionV3 {
     export interface ChampionInfoDTO {
         freeChampionIdsForNewPlayers: number[];
         freeChampionIds: number[];
