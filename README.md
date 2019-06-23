@@ -6,7 +6,12 @@ To install the package, run
 npm install --save-dev riot-api-typedef
 ```
 
-Once downloaded, utilize the interfaces via
+The interfaces are all grouped together in a namespace that is imported where its can be accessed.
+
+For an example,
+
 ```js
-import * as RiotAPI from 'riot-api-typedef';
+import { LeagueV4 } from 'riot-api-typedef';
+
+let entry: LeagueV4.LeagueEntryDto = /* Code here */
 ```
