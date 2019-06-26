@@ -1,7 +1,7 @@
 {
   "name": "riot-api-typedef",
   "version": "1.0.0",
-  "description": "TypeScript interfaces to house for Riot API responses.",
+  "description": "Create enums to represent constant values in the documentation.",
   "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
