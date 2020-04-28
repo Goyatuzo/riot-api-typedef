@@ -1,6 +1,7 @@
 import { Seasons } from "../constants/seasons";
 import { AllQueues } from '../constants/queues';
 import { Maps } from "../constants/maps";
+import { MatchEventDTOType } from "../constants/match";
 
 export namespace MatchV4 {
     export interface MasteryDTO {
@@ -475,5 +476,60 @@ export namespace MatchV4 {
          * Number of times the team killed Dragon. 
          */
         dragonKills: number;
+    }
+
+    export interface MatchTimelineDTO {
+        frames: MatchFrameDTO[];
+        frameInterval: number;
+    }
+
+    export interface MatchFrameDTO {
+        participantFrames: { [str: string]: MatchParticipantFrameDTO }
+        events: MatchEventDTO[];
+        timestamp: number;
+    }
+
+    export interface MatchEventDTO {
+        laneType: string;
+        skillSlot: string;
+        ascendedType: string;
+        creatorId: number;
+        afterId: number;
+        eventType: string;
+        type: MatchEventDTOType;
+        levelUpType: string;
+        wardType: string;
+        participantId: number;
+        towerType: string;
+        itemId: number;
+        beforeId: number;
+        pointCaptured: string;
+        monsterType: string;
+        monsterSubType: string;
+        teamId: number;
+        position: MatchPositionDTO;
+        killerId: number;
+        timestamp: number;
+        assistingParticipants: number[];
+        buildingType: string;
+        victimId: number;
+    }
+
+    export interface MatchPositionDTO {
+        x: number;
+        y: number;
+    }
+
+    export interface MatchParticipantFrameDTO {
+        participantId: number;
+        minionsKilled: number;
+        teamScore: number;
+        dominionScore: number;
+        totalGold: number;
+        level: number;
+        xp: number;
+        currentGold: number;
+        position: MatchPositionDTO;
+        jungleMinionsKilled: number;
     }
 }

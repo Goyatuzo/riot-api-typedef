@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Goyatuzo/riot-api-typedef/issues"
   },
-  "homepage": "https://github.com/Goyatuzo/riot-api-typedef#readme"
+  "homepage": "https://github.com/Goyatuzo/riot-api-typedef#readme",
+  "devDependencies": {
+    "typescript": "3.8.3"
+  }
 }
