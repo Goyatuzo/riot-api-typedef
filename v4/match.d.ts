@@ -476,4 +476,23 @@ export namespace MatchV4 {
          */
         dragonKills: number;
     }
+
+    export interface MatchTimelineDTO {
+        frames: MatchFrameDTO[];
+        frameInterval: number;
+    }
+
+    export interface MatchFrameDTO {
+        participantFrames: { [str: string]: MatchParticipantFrameDTO }
+        events: MatchEventDTO[];
+        timestamp: number;
+    }
+
+    export interface MatchEventDTO {
+
+    }
+
+    export interface MatchParticipantFrameDTO {
+
+    }
 }
