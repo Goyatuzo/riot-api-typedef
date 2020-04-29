@@ -70,7 +70,7 @@ export namespace MatchV4 {
     }
 
     export interface MatchReferenceDTO {
-        lane; string;
+        lane: string;
         gameId: number;
         champion: number;
         platformId: string;
