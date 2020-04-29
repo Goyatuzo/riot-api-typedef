@@ -12,3 +12,6 @@ export * from './spectator';
 
 // Tournament
 export * from './tournament';
+
+// Summoner
+export * from './summoner';
