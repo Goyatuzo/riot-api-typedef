@@ -1,6 +1,6 @@
 {
   "name": "riot-api-typedef",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Create enums to represent constant values in the documentation.",
   "typings": "index.d.ts",
   "scripts": {
