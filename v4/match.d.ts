@@ -510,7 +510,7 @@ export namespace MatchV4 {
         position: MatchPositionDTO;
         killerId: number;
         timestamp: number;
-        assistingParticipants: number[];
+        assistingParticipantIds: number[];
         buildingType: string;
         victimId: number;
     }
